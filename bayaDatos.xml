@@ -484,7 +484,7 @@
         <seco>0</seco>
         <dulce>0</dulce>
         <amargo3ra>40</amargo3ra>
-        <amarga4ta>30</amarga4ta>
+        <amargo4ta>30</amargo4ta>
         <ácido>10</ácido>
         <tersura3ra>70</tersura3ra>
         <tersura4ta>35</tersura4ta>
@@ -961,6 +961,12 @@
     <baya>
         <id>66</id>
         <nombre>Baya Maranga</nombre>
+        <picante>10</picante>
+        <seco>10</seco>
+        <dulce>30</dulce>
+        <amargo>30</amargo>
+        <ácido>10</ácido>
+        <tersura>-</tersura>
         <color6ta>Amarillo</color6ta>
         <efectoBatalla>Aumenta la Defensa Especial tras recibir un ataque Especial</efectoBatalla>
         <genAñadida>6</genAñadida>
@@ -969,6 +975,12 @@
     <baya>
         <id>67</id>
         <nombre>Baya Biglia</nombre>
+        <picante>30</picante>
+        <seco>30</seco>
+        <dulce>10</dulce>
+        <amargo>10</amargo>
+        <ácido>10</ácido>
+        <tersura>-</tersura>
         <color6ta>Rosa</color6ta>
         <efectoBatalla>Aumenta la Defensa tras recibir un ataque Físico</efectoBatalla>
         <genAñadida>6</genAñadida>
