@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bayas>
+    <baya>
+        <id>01</id>
+        <nombre>Baya Zreza</nombre>
+        <picante>10</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>25</tersura>
+        <color6ta>Rojo</color6ta>
+        <efectoBatalla>Cura la parálisis</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Zreza.png</imagen>
+    </baya>
+    <baya>
+        <id>02</id>
+        <nombre>Baya Atania</nombre>
+        <picante>0</picante>
+        <seco>10</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>25</tersura>
+        <color6ta>Azul</color6ta>
+        <efectoBatalla>Cura el sueño</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Atania.png</imagen>
+    </baya>
+    <baya>
+        <id>03</id>
+        <nombre>Baya Duraz</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>10</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>25</tersura>
+        <color6ta>Rosa</color6ta>
+        <efectoBatalla>Cura el veneno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Meloc.png</imagen>
+    </baya>
+    <baya>
+        <id>04</id>
+        <nombre>Baya Safre</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>10</amargo>
+        <ácido>0</ácido>
+        <tersura>25</tersura>
+        <color6ta>Verde</color6ta>
+        <efectoBatalla>Cura las quemaduras</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Safre.png</imagen>
+    </baya>
+    <baya>
+        <id>05</id>
+        <nombre>Baya Perasi</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>10</ácido>
+        <tersura>25</tersura>
+        <color6ta>Amarillo</color6ta>
+        <efectoBatalla>Cura la congelación</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Perasi.png</imagen>
+    </baya>
+    <baya>
+        <id>06</id>
+        <nombre>Baya Zanama</nombre>
+        <picante>10</picante>
+        <seco>0</seco>
+        <dulce>10</dulce>
+        <amargo>10</amargo>
+        <ácido>10</ácido>
+        <tersura>20</tersura>
+        <color6ta>Rojo</color6ta>
+        <efectoBatalla>Restaura 10 Puntos de Poder de un movimiento</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Zanama.png</imagen>
+    </baya>
+    <baya>
+        <id>07</id>
+        <nombre>Baya Aranja</nombre>
+        <picante>10</picante>
+        <seco>10</seco>
+        <dulce3ra>10</dulce3ra>
+        <dulce4ta>0</dulce4ta>
+        <amargo>10</amargo>
+        <ácido>10</ácido>
+        <tersura>20</tersura>
+        <color6ta>Azul</color6ta> 
+        <efectoBatalla>Cura 10 Puntos de Salud</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Aranja.png</imagen>
+    </baya>
+    <baya>
+        <id>08</id>
+        <nombre>Baya Caquic</nombre>
+        <picante>10</picante>
+        <seco>10</seco>
+        <dulce>10</dulce>
+        <amargo3ra>10</amargo3ra>
+        <amargo4ta>0</amargo4ta>
+        <ácido>10</ácido>
+        <tersura>20</tersura>
+        <color6ta>Rosa</color6ta>
+        <efectoBatalla>Cura las confusión</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Caquic.png</imagen>
+    </baya>
+    <baya>
+        <id>09</id>
+        <nombre>Baya Ziuela</nombre>
+        <picante>10</picante>
+        <seco>10</seco>
+        <dulce>10</dulce>
+        <amargo>10</amargo>
+        <ácido3ra>10</ácido3ra>
+        <ácido4ta>0</ácido4ta>
+        <tersura>20</tersura>
+        <color6ta>Verde</color6ta>
+        <efectoBatalla>Cura cualquier problema de Estado</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Ziuela.png</imagen>
+    </baya>
+    <baya>
+        <id>10</id>
+        <nombre>Baya Citrón</nombre>
+        <picante3ra>10</picante3ra>
+        <picante4ta>0</picante4ta>
+        <seco>10</seco>
+        <dulce>10</dulce>
+        <amargo>10</amargo>
+        <ácido>10</ácido>
+        <tersura>20</tersura>
+        <color6ta>Amarilla</color6ta>
+        <efectoBatalla>Cura 1/4 de los Puntos de Salud totales</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Zidra.png</imagen>
+    </baya>
+    <baya>
+        <id>11</id>
+        <nombre>Baya Higog</nombre>
+        <picante3ra>10</picante3ra>
+        <picante4ta>15</picante4ta>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>25</tersura>
+        <color6ta>Rojo</color6ta>
+        <efectoBatalla>Cura 1/8 de los Puntos de Salud totales de un Pokémon, pero lo confunde si no le gusta el sabor picante</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Higog.png</imagen>
+    </baya>
+    <baya>
+        <id>12</id>
+        <nombre>Baya Wiki</nombre>
+        <picante>0</picante>
+        <seco3ra>10</seco3ra>
+        <seco4ta>15</seco4ta>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>25</tersura>
+        <color6ta>Azul</color6ta>
+        <efectoBatalla>Cura 1/8 de los Puntos de Salud totales de un Pokémon, pero lo confunde si no le gusta el sabor seco</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Wiki.png</imagen>
+    </baya>
+    <baya>
+        <id>13</id>
+        <nombre>Baya Ango</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce3ra>10</dulce3ra>
+        <dulce4ta>15</dulce4ta>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>25</tersura>
+        <color6ta>Rosa</color6ta>
+        <efectoBatalla>Cura 1/8 de los Puntos de Salud totales de un Pokémon, pero lo confunde si no le gusta el sabor dulce</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Ango.png</imagen>
+    </baya>
+    <baya>
+        <id>14</id>
+        <nombre>Baya Guaya</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo3ra>10</amargo3ra>
+        <amargo4ta>15</amargo4ta>
+        <ácido>0</ácido>
+        <tersura>25</tersura>
+        <color6ta>Verde</color6ta>
+        <efectoBatalla>Cura 1/8 de los Puntos de Salud totales de un Pokémon, pero lo confunde si no le gusta el sabor amargo</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Guaya.png</imagen>
+    </baya>
+    <baya>
+        <id>15</id>
+        <nombre>Baya Pabaya</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido3ra>10</ácido3ra>
+        <ácido4ta>15</ácido4ta>
+        <tersura>25</tersura>
+        <color6ta>Amarillo</color6ta>
+        <efectoBatalla>Cura 1/8 de los Puntos de Salud totales de un Pokémon, pero lo confunde si no le gusta el sabor ácido</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Pabaya.png</imagen>
+    </baya>
+    <baya>
+        <id>16</id>
+        <nombre>Baya Frambu</nombre>
+        <picante>10</picante>
+        <seco>10</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>20</tersura>
+        <color6ta>Rojo</color6ta>
+        <efectoBatalla>Ninguno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Frambu.png</imagen>
+    </baya>
+    <baya>
+        <id>17</id>
+        <nombre>Baya Oram</nombre>
+        <picante>0</picante>
+        <seco>10</seco>
+        <dulce>10</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>20</tersura>
+        <color6ta>Azul</color6ta>
+        <efectoBatalla>Ninguno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Oram.png</imagen>
+    </baya>
+    <baya>
+        <id>18</id>
+        <nombre>Baya Latano</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>10</dulce>
+        <amargo>10</amargo>
+        <ácido>0</ácido>
+        <tersura>20</tersura>
+        <color6ta>Rosa</color6ta>
+        <efectoBatalla>Ninguno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Latano.png</imagen>
+    </baya>
+    <baya>
+        <id>19</id>
+        <nombre>Baya Peragu</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>10</amargo>
+        <ácido>10</ácido>
+        <tersura>20</tersura>
+        <color6ta>Verde</color6ta>
+        <efectoBatalla>Ninguno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Peragu.png</imagen>
+    </baya>
+    <baya>
+        <id>20</id>
+        <nombre>Baya Pinia</nombre>
+        <picante>10</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>10</ácido>
+        <tersura>20</tersura>
+        <color6ta>Amarillo</color6ta>
+        <efectoBatalla>Ninguno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Pinia.png</imagen>
+    </baya>
+    <baya>
+        <id>21</id>
+        <nombre>Baya Grana</nombre>
+        <picante>10</picante>
+        <seco>0</seco>
+        <dulce>10</dulce>
+        <amargo>10</amargo>
+        <ácido>0</ácido>
+        <tersura>20</tersura>
+        <color6ta>Rojo</color6ta>
+        <efectoBatalla>Ninguno, pero fuera de batalla reduce sus Puntos de Salud totales de un Pokémon y aumenta su Felicidad</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Grana.png</imagen>
+    </baya>
+    <baya>
+        <id>22</id>
+        <nombre>Baya Algama</nombre>
+        <picante>0</picante>
+        <seco>10</seco>
+        <dulce>0</dulce>
+        <amargo>10</amargo>
+        <ácido>10</ácido>
+        <tersura>20</tersura>
+        <color6ta>Azul</color6ta>
+        <efectoBatalla>Ninguno, pero fuera de batalla reduce el Ataque de un Pokémon y aumenta su Felicidad</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Algama.png</imagen>
+    </baya>
+    <baya>
+        <id>23</id>
+        <nombre>Baya Isperio</nombre>
+        <picante>10</picante>
+        <seco>0</seco>
+        <dulce>10</dulce>
+        <amargo>0</amargo>
+        <ácido>10</ácido>
+        <tersura>20</tersura>
+        <color6ta>Rosa</color6ta>
+        <efectoBatalla>Ninguno, pero fuera de batalla reduce la Defensa de un Pokémon y aumenta su Felicidad</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Ispero.png</imagen>
+    </baya>
+    <baya>
+        <id>24</id>
+        <nombre>Baya Meluce</nombre>
+        <picante>10</picante>
+        <seco>10</seco>
+        <dulce>0</dulce>
+        <amargo>10</amargo>
+        <ácido>0</ácido>
+        <tersura>20</tersura>
+        <color6ta>Verde</color6ta>
+        <efectoBatalla>Ninguno, pero fuera de batalla reduce el Ataque Especial de un Pokémon y aumenta su Felicidad</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Meluce.png</imagen>
+    </baya>
+    <baya>
+        <id>25</id>
+        <nombre>Baya Uvav</nombre>
+        <picante>0</picante>
+        <seco>10</seco>
+        <dulce>10</dulce>
+        <amargo>0</amargo>
+        <ácido>10</ácido>
+        <tersura>20</tersura>
+        <color6ta>Amarillo</color6ta>
+        <efectoBatalla>Ninguno, pero fuera de batalla reduce la Defensa Especial de un Pokémon y aumenta su Felicidad</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Uvav.png</imagen>
+    </baya>
+    <baya>
+        <id>26</id>
+        <nombre>Baya Tamate</nombre>
+        <picante>20</picante>
+        <seco>10</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>30</tersura>
+        <color6ta>Rojo</color6ta>
+        <efectoBatalla>Ninguno, pero fuera de batalla reduce la Velocidad de un Pokémon y aumenta su Felicidad</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Tamate.png</imagen>
+    </baya>
+    <baya>
+        <id>27</id>
+        <nombre>Baya Mais</nombre>
+        <picante>0</picante>
+        <seco>20</seco>
+        <dulce>10</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>30</tersura>
+        <color6ta>Azul</color6ta>
+        <efectoBatalla>Ninguno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Mais.png</imagen>
+    </baya>
+    <baya>
+        <id>28</id>
+        <nombre>Baya Aostan</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>20</dulce>
+        <amargo>10</amargo>
+        <ácido>0</ácido>
+        <tersura>30</tersura>
+        <color6ta>Rosa</color6ta>
+        <efectoBatalla>Ninguno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Aostan.png</imagen>
+    </baya>
+    <baya>
+        <id>29</id>
+        <nombre>Baya Rautan</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>20</amargo>
+        <ácido>10</ácido>
+        <tersura>30</tersura>
+        <color6ta>Verde</color6ta>
+        <efectoBatalla>Ninguno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Rautan.png</imagen>
+    </baya>
+    <baya>
+        <id>30</id>
+        <nombre>Baya Monli</nombre>
+        <picante>10</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>20</ácido>
+        <tersura>30</tersura>
+        <color6ta>Amarillo</color6ta>
+        <efectoBatalla>Ninguno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Monli.png</imagen>
+    </baya>
+    <baya>
+        <id>31</id>
+        <nombre>Baya Wikano</nombre>
+        <picante3ra>40</picante3ra>
+        <picante4ta>30</picante4ta>
+        <seco>10</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura3ra>70</tersura3ra>
+        <tersura4ta>35</tersura4ta>
+        <color6ta>Rosa</color6ta>
+        <efectoBatalla>Ninguno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Wikano.png</imagen>
+    </baya>
+    <baya>
+        <id>32</id>
+        <nombre>Baya Plama</nombre>
+        <picante>0</picante>
+        <seco3ra>40</seco3ra>
+        <seco4ta>30</seco4ta>
+        <dulce>10</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura3ra>70</tersura3ra>
+        <tersura4ta>35</tersura4ta>
+        <color6ta>Azul</color6ta>
+        <efectoBatalla>Ninguno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Plama.png</imagen>
+    </baya>
+    <baya>
+        <id>33</id>
+        <nombre>Baya Sambia</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce3ra>40</dulce3ra>
+        <dulce4ta>30</dulce4ta>
+        <amargo>10</amargo>
+        <ácido>0</ácido>
+        <tersura3ra>70</tersura3ra>
+        <tersura4ta>35</tersura4ta>
+        <color6ta>Verde</color6ta>
+        <efectoBatalla>Ninguno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Sambia.png</imagen>
+    </baya>
+    <baya>
+        <id>34</id>
+        <nombre>Baya Rudion</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo3ra>40</amargo3ra>
+        <amarga4ta>30</amarga4ta>
+        <ácido>10</ácido>
+        <tersura3ra>70</tersura3ra>
+        <tersura4ta>35</tersura4ta>
+        <color6ta>Verde</color6ta>
+        <efectoBatalla>Ninguno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Rudion.png</imagen>
+    </baya>
+    <baya>
+        <id>35</id>
+        <nombre>Baya Andano</nombre>
+        <picante>10</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido3ra>40</ácido3ra>
+        <ácido4ta>30</ácido4ta>
+        <tersura3ra>70</tersura3ra>
+        <tersura4ta>35</tersura4ta>
+        <color6ta>Azul</color6ta>
+        <efectoBatalla>Ninguno</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Rudion.png</imagen>
+    </baya>
+    <baya>
+        <id>36</id>
+        <nombre>Baya Caoca</nombre>
+        <picante>15</picante>
+        <seco>0</seco>
+        <dulce>10</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>30</tersura>
+        <color6ta>Rojo</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Fuego</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Caoca.png</imagen>
+    </baya>
+    <baya>
+        <id>37</id>
+        <nombre>Baya Pasio</nombre>
+        <picante>0</picante>
+        <seco>15</seco>
+        <dulce>0</dulce>
+        <amargo>10</amargo>
+        <ácido>0</ácido>
+        <tersura>30</tersura>
+        <color6ta>Azul</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Agua</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Pasio.png</imagen>
+    </baya>
+    <baya>
+        <id>38</id>
+        <nombre>Baya Gualot</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>15</dulce>
+        <amargo>0</amargo>
+        <ácido>10</ácido>
+        <tersura>30</tersura>
+        <color6ta>Amarillo</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Eléctrico</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Gualot.png</imagen>
+    </baya>
+    <baya>
+        <id>39</id>
+        <nombre>Baya Tamar</nombre>
+        <picante>10</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>15</amargo>
+        <ácido>0</ácido>
+        <tersura>30</tersura>
+        <color6ta>Verde</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Planta</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Tamar.png</imagen>
+    </baya>
+    <baya>
+        <id>40</id>
+        <nombre>Baya Rimoya</nombre>
+        <picante>0</picante>
+        <seco>10</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>15</ácido>
+        <tersura>30</tersura>
+        <color6ta>Azul</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Hielo</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Rimoya.png</imagen>
+    </baya>
+    <baya>
+        <id>41</id>
+        <nombre>Baya Pomaro</nombre>
+        <picante>15</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>10</amargo>
+        <ácido>0</ácido>
+        <tersura>30</tersura>
+        <color6ta>Rojo</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Lucha</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Pomaro.png</imagen>
+    </baya>
+    <baya>
+        <id>42</id>
+        <nombre>Baya Kebia</nombre>
+        <picante>0</picante>
+        <seco>15</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>10</ácido>
+        <tersura>30</tersura>
+        <color6ta>Verde</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Veneno</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Kebia.png</imagen>
+    </baya>
+    <baya>
+        <id>43</id>
+        <nombre>Baya Acardo</nombre>
+        <picante>10</picante>
+        <seco>0</seco>
+        <dulce>15</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>30</tersura>
+        <color6ta>Amarillo</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Tierra</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Acardo.png</imagen>
+    </baya>
+    <baya>
+        <id>44</id>
+        <nombre>Baya Kouba</nombre>
+        <picante>0</picante>
+        <seco>10</seco>
+        <dulce>0</dulce>
+        <amargo>15</amargo>
+        <ácido>0</ácido>
+        <tersura>30</tersura>
+        <color6ta>Azul</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Volador</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Kouba.png</imagen>
+    </baya>
+    <baya>
+        <id>45</id>
+        <nombre>Baya Payapa</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>10</dulce>
+        <amargo>0</amargo>
+        <ácido>15</ácido>
+        <tersura>30</tersura>
+        <color6ta>Rojo</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Psíquico</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Payapa.png</imagen>
+    </baya>
+    <baya>
+        <id>46</id>
+        <nombre>Baya Yecana</nombre>
+        <picante>20</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>10</ácido>
+        <tersura>35</tersura>
+        <color6ta>Verde</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Bicho</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Yecana.png</imagen>
+    </baya>
+    <baya>
+        <id>47</id>
+        <nombre>Baya Alcho</nombre>
+        <picante>10</picante>
+        <seco>20</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>35</tersura>
+        <color6ta>Amarillo</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Roca</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Alcho.png</imagen>
+    </baya>
+    <baya>
+        <id>48</id>
+        <nombre>Baya Drasi</nombre>
+        <picante>0</picante>
+        <seco>10</seco>
+        <dulce>20</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>35</tersura>
+        <color6ta>Rosa</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Fantasma</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Drasi.png</imagen>
+    </baya>
+    <baya>
+        <id>49</id>
+        <nombre>Baya Anjiro</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>10</dulce>
+        <amargo>20</amargo>
+        <ácido>0</ácido>
+        <tersura>35</tersura>
+        <color6ta>Rojo</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Dragón</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Anjiro.png</imagen>
+    </baya>
+    <baya>
+        <id>50</id>
+        <nombre>Baya Dillo</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>10</amargo>
+        <ácido>20</ácido>
+        <tersura>35</tersura>
+        <color6ta>Rosa</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Siniestro</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Dillo.png</imagen>
+    </baya>
+    <baya>
+        <id>51</id>
+        <nombre>Baya Baribá</nombre>
+        <picante>25</picante>
+        <seco>10</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>35</tersura>
+        <color6ta>Verde</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Acero</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Baribá.png</imagen>
+    </baya>
+    <baya>
+        <id>52</id>
+        <nombre>Baya Chilan</nombre>
+        <picante>0</picante>
+        <seco>25</seco>
+        <dulce>10</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>35</tersura>
+        <color6ta>Amarillo</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque de tipo Normal</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Chilan.png</imagen>
+    </baya>
+    <baya>
+        <id>53</id>
+        <nombre>Baya Lichi</nombre>
+        <picante3ra>40</picante3ra>
+        <picante4ta>30</picante4ta>
+        <seco3ra>0</seco3ra>
+        <seco4ta>10</seco4ta>
+        <dulce3ra>40</dulce3ra>
+        <dulce4ta>30</dulce4ta>
+        <amargo>0</amargo>
+        <ácido3ra>10</ácido3ra>
+        <ácido4ta>0</ácido4ta>
+        <tersura3ra>80</tersura3ra>
+        <tersura4ta>40</tersura4ta>
+        <color6ta>Amarillo</color6ta>
+        <efectoBatalla>Aumenta el Ataque al tener menos de 1/4 de Puntos de Salud</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Lichi.png</imagen>
+    </baya>
+    <baya>
+        <id>54</id>
+        <nombre>Baya Gonlan</nombre>
+        <picante>0</picante>
+        <seco3ra>40</seco3ra>
+        <seco4ta>30</seco4ta>
+        <dulce3ra>0</dulce3ra>
+        <dulce4ta>10</dulce4ta>
+        <amargo3ra>40</amargo3ra>
+        <amargo4ta>30</amargo4ta>
+        <ácido>0</ácido>
+        <tersura3ra>80</tersura3ra>
+        <tersura4ta>40</tersura4ta>
+        <color6ta>Azul</color6ta>
+        <efectoBatalla>Aumenta la Defensa al tener menos de 1/4 de Puntos de Salud</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Gonlan.png</imagen>
+    </baya>
+    <baya>
+        <id>55</id>
+        <nombre>Baya Aslac</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce3ra>40</dulce3ra>
+        <dulce4ta>30</dulce4ta>
+        <amargo3ra>0</amargo3ra>
+        <amargo4ta>10</amargo4ta>
+        <ácido3ra>40</ácido3ra>
+        <ácido4ta>30</ácido4ta>
+        <tersura3ra>80</tersura3ra>
+        <tersura4ta>40</tersura4ta>
+        <color6ta>Verde</color6ta>
+        <efectoBatalla>Aumenta la Velocidad al tener menos de 1/4 de Puntos de Salud</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Aslac.png</imagen>
+    </baya>
+    <baya>
+        <id>56</id>
+        <nombre>Baya Yapati</nombre>
+        <picante3ra>40</picante3ra>
+        <picante4ta>30</picante4ta>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo3ra>40</amargo3ra>
+        <amargo4ta>30</amargo4ta>
+        <ácido3ra>0</ácido3ra>
+        <ácido4ta>10</ácido4ta>
+        <tersura3ra>80</tersura3ra>
+        <tersura4ta>40</tersura4ta>
+        <color6ta>Rosa</color6ta>
+        <efectoBatalla>Aumenta el Ataque Especial al tener menos de 1/4 de Puntos de Salud</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Yapati.png</imagen>
+    </baya>
+    <baya>
+        <id>57</id>
+        <nombre>Baya Aricoc</nombre>
+        <picante3ra>0</picante3ra>
+        <picante4ta>10</picante4ta>
+        <seco3ra>40</seco3ra>
+        <seco4ta>30</seco4ta>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido3ra>40</ácido3ra>
+        <ácido4ta>30</ácido4ta>
+        <tersura3ra>80</tersura3ra>
+        <tersura4ta>40</tersura4ta>
+        <color6ta>Azul</color6ta>
+        <efectoBatalla>Aumenta la Defensa Especial al tener menos de 1/4 de Puntos de Salud</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Aricoc.png</imagen>
+    </baya>
+    <baya>
+        <id>58</id>
+        <nombre>Baya Lansat</nombre>
+        <picante3ra>10</picante3ra>
+        <picante4ta>30</picante4ta>
+        <seco>10</seco>
+        <dulce3ra>10</dulce3ra>
+        <dulce4ta>30</dulce4ta>
+        <amargo>10</amargo>
+        <ácido3ra>10</ácido3ra>
+        <ácido4ta>30</ácido4ta>
+        <tersura3ra>30</tersura3ra>
+        <tersura4ta>50</tersura4ta>
+        <color6ta>Rosa+</color6ta>
+        <efectoBatalla>Aumenta el índice de golpe Crítico al tener menos de 1/4 de Puntos de Salud</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Zonlan.png</imagen>
+    </baya>
+    <baya>
+        <id>59</id>
+        <nombre>Baya Arabol</nombre>
+        <picante3ra>10</picante3ra>
+        <picante4ta>30</picante4ta>
+        <seco>10</seco>
+        <dulce3ra>10</dulce3ra>
+        <dulce4ta>30</dulce4ta>
+        <amargo>10</amargo>
+        <ácido3ra>10</ácido3ra>
+        <ácido4ta>30</ácido4ta>
+        <tersura3ra>30</tersura3ra>
+        <tersura4ta>50</tersura4ta>
+        <color6ta>Verde+</color6ta>
+        <efectoBatalla>Duplica una característica de combate al azar al tener menos de 1/4 de Puntos de Salud</efectoBatalla>
+        <genAñadida>3</genAñadida>
+        <imagen>./bayaImagenes/Baya_Arabol.png</imagen>
+    </baya>
+    <baya>
+        <id>60</id>
+        <nombre>Baya Enigma</nombre>
+        <picante>40</picante>
+        <seco>10</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>60</tersura>
+        <color6ta>Amarillo</color6ta>
+        <efectoBatalla>Cura 1/4 de los Puntos de Salud totales de un Pokémon tras recibir un ataque Super eficaz</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Enigma.png</imagen>
+    </baya>
+    <baya>
+        <id>61</id>
+        <nombre>Baya Lagro</nombre>
+        <picante>0</picante>
+        <seco>40</seco>
+        <dulce>10</dulce>
+        <amargo>0</amargo>
+        <ácido>0</ácido>
+        <tersura>60</tersura>
+        <color6ta>Verde</color6ta>
+        <efectoBatalla>Incrementa la precisión de los movimientos</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Lagro.png</imagen>
+    </baya>
+    <baya>
+        <id>62</id>
+        <nombre>Baya Chiri</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>40</dulce>
+        <amargo>10</amargo>
+        <ácido>0</ácido>
+        <tersura>60</tersura>
+        <color6ta>Rojo</color6ta>
+        <efectoBatalla>Al tener 1/4 de sus Puntos de Salud totales o menos, el siguiente movimiento que ejecute tendrá +1 de Prioridad</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Chiri.png</imagen>
+    </baya>
+    <baya>
+        <id>63</id>
+        <nombre>Baya Jaboca</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>40</amargo>
+        <ácido>10</ácido>
+        <tersura>60</tersura>
+        <color6ta>Amarillo</color6ta>
+        <efectoBatalla>Cuando el Pokémon reciba un ataque Físico, el atacante recibirá daño igual a 1/8 de sus Puntos de Salud totales</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Jaboca.png</imagen>
+    </baya>
+    <baya>
+        <id>64</id>
+        <nombre>Baya Magua</nombre>
+        <picante>10</picante>
+        <seco>0</seco>
+        <dulce>0</dulce>
+        <amargo>0</amargo>
+        <ácido>40</ácido>
+        <tersura>60</tersura>
+        <color6ta>Azul</color6ta>
+        <efectoBatalla>Cuando el Pokémon reciba un ataque Especial, el atacante recibirá daño igual a 1/8 de sus Puntos de Salud totales</efectoBatalla>
+        <genAñadida>4</genAñadida>
+        <imagen>./bayaImagenes/Baya_Magua.png</imagen>
+    </baya>
+    <baya>
+        <id>65</id>
+        <nombre>Baya Hibis</nombre>
+        <picante>0</picante>
+        <seco>0</seco>
+        <dulce>25</dulce>
+        <amargo>10</amargo>
+        <ácido>0</ácido>
+        <tersura>35</tersura>
+        <color6ta>Rojo</color6ta>
+        <efectoBatalla>Reduce a la mitad el daño recibido de un ataque Super eficaz de tipo Hada</efectoBatalla>
+        <genAñadida>6</genAñadida>
+        <imagen>./bayaImagenes/Baya_Hibis.png</imagen>
+    </baya>
+    <baya>
+        <id>66</id>
+        <nombre>Baya Maranga</nombre>
+        <color6ta>Amarillo</color6ta>
+        <efectoBatalla>Aumenta la Defensa Especial tras recibir un ataque Especial</efectoBatalla>
+        <genAñadida>6</genAñadida>
+        <imagen>./bayaImagenes/Baya_Maranga.png</imagen>
+    </baya>
+    <baya>
+        <id>67</id>
+        <nombre>Baya Biglia</nombre>
+        <color6ta>Rosa</color6ta>
+        <efectoBatalla>Aumenta la Defensa tras recibir un ataque Físico</efectoBatalla>
+        <genAñadida>6</genAñadida>
+        <imagen>./bayaImagenes/Baya_Biglia.png</imagen>
+    </baya>
+</bayas>
