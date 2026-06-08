@@ -45,12 +45,12 @@ tr {
 }
 
 div {
-    display: grid;
-    grid-template-columns: repeat(60,1fr);
+    display: flex
 }
 
-#info {
-    display: flex
+#checkboxes {
+    display: grid;
+    grid-template-columns: repeat(60,1fr);
 }
 
 #index {
