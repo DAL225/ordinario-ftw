@@ -44,8 +44,8 @@ tr {
     border-bottom: 1px solid;
 }
 
-div {
-    display: flex
+#info{
+    display: flex;
 }
 
 #checkboxes {
