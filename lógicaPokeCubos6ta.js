@@ -109,6 +109,12 @@ function calcularCubo(){
                 rosa++;
             }
             console.log(plusGarantizado)
+            console.log(rojo)
+            console.log(azul)
+            console.log(rosa)
+            console.log(verde)
+            console.log(amarillo)
+
         }
         if (Number(rojo) > Number(azul) && Number(rojo) > Number(rosa) && Number(rojo) > Number(verde) && Number(rojo) > Number(amarillo)){
             if (plusGarantizado){
@@ -152,7 +158,79 @@ function calcularCubo(){
                 tipo = "Arcoíris ó Arcoíris+"
             }
         }
+        if (Number(rojo) == 1 && Number(rojo) + Number(azul) + Number(rosa) + Number(verde) + Number(amarillo) == 2){
+            if (plusGarantizado){
+                tipo = "Rojo+";
+            } else {
+                tipo = "Rojo ó Rojo+";
+            }
+        }
+        if (Number(rojo) == 2 && Number(rojo) + Number(azul) + Number(rosa) + Number(verde) + Number(amarillo) == 4){
+            if (plusGarantizado){
+                tipo = "Rojo+";
+            } else {
+                tipo = "Rojo ó Rojo+";
+            }
+        }
+        if (Number(azul) == 1 && Number(rojo) + Number(azul) + Number(rosa) + Number(verde) + Number(amarillo) == 2 && Number(azul) > Number(rojo)){
+            if (plusGarantizado){
+                tipo = "Azul+";
+            } else {
+                tipo = "Azul ó Azul+";
+            }
+        }
+        if (Number(azul) == 2 && Number(rojo) + Number(azul) + Number(rosa) + Number(verde) + Number(amarillo) == 4 && Number(azul) > Number(rojo)){
+            if (plusGarantizado){
+                tipo = "Azul+";
+            } else {
+                tipo = "Azul ó Azul+";
+            }
+        }
+        if (Number(rosa) == 1 && Number(rojo) + Number(azul) + Number(rosa) + Number(verde) + Number(amarillo) == 2 && Number(rosa) > Number(rojo) && Number(rosa) > Number(azul)){
+            if (plusGarantizado){
+                tipo = "Rosa+";
+            } else {
+                tipo = "Rosa ó Rosa+";
+            }
+        }
+        if (Number(rosa) == 2 && Number(rojo) + Number(azul) + Number(rosa) + Number(verde) + Number(amarillo) == 4 && Number(rosa) > Number(rojo) && Number(rosa) > Number(azul)){
+            if (plusGarantizado){
+                tipo = "Rosa+";
+            } else {
+                tipo = "Rosa ó Rosa+";
+            }
+        }
+        if (Number(verde) == 1 && Number(rojo) + Number(azul) + Number(rosa) + Number(verde) + Number(amarillo) == 2 && Number(verde) > Number(rojo) && Number(verde) > Number(azul) && Number(verde) > Number(rosa)){
+            if (plusGarantizado){
+                tipo = "Verde+";
+            } else {
+                tipo = "Verde ó Verde+";
+            }
+        }
+        if (Number(verde) == 2 && Number(rojo) + Number(azul) + Number(rosa) + Number(verde) + Number(amarillo) == 4 && Number(verde) > Number(rojo) && Number(verde) > Number(azul) && Number(verde) > Number(rosa)){
+            if (plusGarantizado){
+                tipo = "Verde+";
+            } else {
+                tipo = "Verde ó Verde+";
+            }
+        }
+        if (Number(amarillo) == 1 && Number(rojo) + Number(azul) + Number(rosa) + Number(verde) + Number(amarillo) == 2 && Number(amarillo) > Number(rojo) && Number(amarillo) > Number(azul) && Number(amarillo) > Number(rosa) && Number(amarillo) > Number(verde)){
+            if (plusGarantizado){
+                tipo = "Amarillo+";
+            } else {
+                tipo = "Amarillo ó Amarillo+";
+            }
+        }
+        if (Number(amarillo) == 2 && Number(rojo) + Number(azul) + Number(rosa) + Number(verde) + Number(amarillo) == 4 && Number(amarillo) > Number(rojo) && Number(amarillo) > Number(azul) && Number(amarillo) > Number(rosa) && Number(amarillo) > Number(verde)){
+            if (plusGarantizado){
+                tipo = "Amarillo+";
+            } else {
+                tipo = "Amarillo ó Amarillo+";
+            }
+        }
+
         cantidad = entrada.rows.length - 1;
+        console.log(tipo)
 
         table = "<tr><th>Tipo</th><th>Cantidad</th></tr>" + "<tr><td>" + tipo + "</td><td>" + cantidad + "</td></tr>";
         salida.innerHTML = table;
