@@ -7,8 +7,104 @@
     <title>PokeCubos 3ra Generación</title>
 </head>
 <body>
-    <button onclick="window.location.href='Índice.html'">Regresar</button>
-    <table id="pokecubos3ra"></table>
+    <button onclick="window.location.href='Índice.html'">Regresar</button><br>
+    <h2>Elige de 1 a 4 bayas</h2>
+    <table id="pokecubosEntrada"></table><br>
+    <label>RPM final del LicuaBayas:</label><br>
+    <input type="number" step="any" id="rpm" min="0.00" max="999.99" oninput=maximoNum(this)><br>
+    <br>
+    <button onclick=calcularCubo()>Calcular PokeCubo</button>
+    <br><br>
+    <label>PokeCubo Final:</label>
+    <br>
+    <table id="pokecuboSalida"></table>
+    <div>
+        <input type="checkbox" id="01">
+        <label for="1"><img src="./bayaImagenes/Baya_Zreza.png" alt="Baya Zreza"/><br>Baya Zreza</label><br>
+        <input type="checkbox" id="02">
+        <label for="2"><img src="./bayaImagenes/Baya_Atania.png" alt="Baya Atania"/><br>Baya Atania</label><br>
+        <input type="checkbox" id="03">
+        <label for="3"><img src="./bayaImagenes/Baya_Meloc.png" alt="Baya Meloc"/><br>Baya Meloc</label><br>
+        <input type="checkbox" id="04">
+        <label for="4"><img src="./bayaImagenes/Baya_Safre.png" alt="Baya Safre"/><br>Baya Safre</label><br>
+        <input type="checkbox" id="05">
+        <label for="5"><img src="./bayaImagenes/Baya_Perasi.png" alt="Baya Perasi"/><br>Baya Perasi</label><br>
+        <input type="checkbox" id="06">
+        <label for="6"><img src="./bayaImagenes/Baya_Zanama.png" alt="Baya Zanama"/><br>Baya Zanama</label><br>
+        <input type="checkbox" id="07">
+        <label for="7"><img src="./bayaImagenes/Baya_Aranja.png" alt="Baya Aranja"/><br>Baya Aranja</label><br>
+        <input type="checkbox" id="08">
+        <label for="8"><img src="./bayaImagenes/Baya_Caquic.png" alt="Baya Caquic"/><br>Baya Caquic</label><br>
+        <input type="checkbox" id="09">
+        <label for="9"><img src="./bayaImagenes/Baya_Ziuela.png" alt="Baya Ziuela"/><br>Baya Ziuela</label><br>
+        <input type="checkbox" id="10">
+        <label for="10"><img src="./bayaImagenes/Baya_Zidra.png" alt="Baya Zidra"/><br>Baya Zidra</label><br>
+        <input type="checkbox" id="11">
+        <label for="11"><img src="./bayaImagenes/Baya_Higog.png" alt="Baya Higog"/><br>Baya Higog</label><br>
+        <input type="checkbox" id="12">
+        <label for="12"><img src="./bayaImagenes/Baya_Wiki.png" alt="Baya Wiki"/><br>Baya Wiki</label><br>
+        <input type="checkbox" id="13">
+        <label for="13"><img src="./bayaImagenes/Baya_Ango.png" alt="Baya Ango"/><br>Baya Ango</label><br>
+        <input type="checkbox" id="14">
+        <label for="14"><img src="./bayaImagenes/Baya_Guaya.png" alt="Baya Guaya"/><br>Baya Guaya</label><br>
+        <input type="checkbox" id="15">
+        <label for="15"><img src="./bayaImagenes/Baya_Pabaya.png" alt="Baya Pabaya"/><br>Baya Pabaya</label><br>
+        <input type="checkbox" id="16">
+        <label for="16"><img src="./bayaImagenes/Baya_Frambu.png" alt="Baya Frambu"/><br>Baya Frambu</label><br>
+        <input type="checkbox" id="17">
+        <label for="17"><img src="./bayaImagenes/Baya_Oram.png" alt="Baya Oram"/><br>Baya Oram</label><br>
+        <input type="checkbox" id="18">
+        <label for="18"><img src="./bayaImagenes/Baya_Latano.png" alt="Baya Latano"/><br>Baya Latano</label><br>
+        <input type="checkbox" id="19">
+        <label for="19"><img src="./bayaImagenes/Baya_Peragu.png" alt="Baya Peragu"/><br>Baya Peragu</label><br>
+        <input type="checkbox" id="20">
+        <label for="20"><img src="./bayaImagenes/Baya_Pinia.png" alt="Baya Pinia"/><br>Baya Pinia</label><br>
+        <input type="checkbox" id="21">
+        <label for="21"><img src="./bayaImagenes/Baya_Grana.png" alt="Baya Grana"/><br>Baya Grana</label><br>
+        <input type="checkbox" id="22">
+        <label for="22"><img src="./bayaImagenes/Baya_Algama.png" alt="Baya Algama"/><br>Baya Algama</label><br>
+        <input type="checkbox" id="23">
+        <label for="23"><img src="./bayaImagenes/Baya_Ispero.png" alt="Baya Ispero"/><br>Baya Ispero</label><br>
+        <input type="checkbox" id="24">
+        <label for="24"><img src="./bayaImagenes/Baya_Meluce.png" alt="Baya Meluce"/><br>Baya Meluce</label><br>
+        <input type="checkbox" id="25">
+        <label for="25"><img src="./bayaImagenes/Baya_Uvav.png" alt="Baya Uvav"/><br>Baya Uvav</label><br>
+        <input type="checkbox" id="26">
+        <label for="26"><img src="./bayaImagenes/Baya_Tamate.png" alt="Baya Tamate"/><br>Baya Tamate</label><br>
+        <input type="checkbox" id="27">
+        <label for="27"><img src="./bayaImagenes/Baya_Mais.png" alt="Baya Mais"/><br>Baya Mais</label><br>
+        <input type="checkbox" id="28">
+        <label for="28"><img src="./bayaImagenes/Baya_Aostan.png" alt="Baya Aostan"/><br>Baya Aostan</label><br>
+        <input type="checkbox" id="29">
+        <label for="29"><img src="./bayaImagenes/Baya_Rautan.png" alt="Baya Rautan"/><br>Baya Rautan</label><br>
+        <input type="checkbox" id="30">
+        <label for="30"><img src="./bayaImagenes/Baya_Monli.png" alt="Baya Monli"/><br>Baya Monli</label><br>
+        <input type="checkbox" id="31">
+        <label for="31"><img src="./bayaImagenes/Baya_Wikano.png" alt="Baya Wikano"/><br>Baya Wikano</label><br>
+        <input type="checkbox" id="32">
+        <label for="32"><img src="./bayaImagenes/Baya_Plama.png" alt="Baya Plama"/><br>Baya Plama</label><br>
+        <input type="checkbox" id="33">
+        <label for="33"><img src="./bayaImagenes/Baya_Sambia.png" alt="Baya Sambia"/><br>Baya Sambia</label><br>
+        <input type="checkbox" id="34">
+        <label for="34"><img src="./bayaImagenes/Baya_Rudion.png" alt="Baya Rudion"/><br>Baya Rudion</label><br>
+        <input type="checkbox" id="35">
+        <label for="35"><img src="./bayaImagenes/Baya_Andano.png" alt="Baya Andano"/><br>Baya Andano</label><br>
+        <input type="checkbox" id="53">
+        <label for="53"><img src="./bayaImagenes/Baya_Lichi.png" alt="Baya Lichi"/><br>Baya Lichi</label><br>
+        <input type="checkbox" id="54">
+        <label for="54"><img src="./bayaImagenes/Baya_Gonlan.png" alt="Baya Gonlan"/><br>Baya Gonlan</label><br>
+        <input type="checkbox" id="55">
+        <label for="55"><img src="./bayaImagenes/Baya_Aslac.png" alt="Baya Aslac"/><br>Baya Aslac</label><br>
+        <input type="checkbox" id="56">
+        <label for="56"><img src="./bayaImagenes/Baya_Yapati.png" alt="Baya Yapati"/><br>Baya Yapati</label><br>
+        <input type="checkbox" id="57">
+        <label for="57"><img src="./bayaImagenes/Baya_Aricoc.png" alt="Baya Aricoc"/><br>Baya Aricoc</label><br>
+        <input type="checkbox" id="58">
+        <label for="58"><img src="./bayaImagenes/Baya_Zonlan.png" alt="Baya Lansat"/><br>Baya Lansat</label><br>
+        <input type="checkbox" id="59">
+        <label for="59"><img src="./bayaImagenes/Baya_Arabol.png" alt="Baya Arabol"/><br>Baya Arabol</label><br>
+    </div>
+    <script src="lógicaCheckbox.js"></script>
     <script src="lógicaPokeCubos3ra.js"></script>
 </body>
 </html>
