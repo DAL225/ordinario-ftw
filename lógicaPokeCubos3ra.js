@@ -1,3 +1,6 @@
+const checkboxes = document.querySelectorAll("input[type='checkbox']");
+let seleccionados = [];
+
 checkboxes.forEach(checkbox => {
     checkbox.addEventListener('change', (evento)=>{
         if (evento.target.checked){
@@ -20,7 +23,6 @@ checkboxes.forEach(checkbox => {
 
 const xhttp = new XMLHttpRequest
 function cargarCheckboxes (ids) {
-    console.log(ids)
     const xmlDoc = xhttp.responseXML;
 
     const x = xmlDoc.getElementsByTagName("baya");
@@ -87,15 +89,12 @@ function calcularCubo() {
     let table = "<tr><th>Color</th><th>Masa</th><th>Picante</th><th>Seco</th><th>Dulce</th><th>Amargo</th><th>Ácido</th></tr>";
 
     for (let i = 1; i < entrada.rows.length; i++){
-        console.log(entrada.rows.length);
-        console.log(entrada.rows[i].cells[2].textContent)
         const fila = entrada.rows[i];
         picante = Number(picante) + Number(fila.cells[2].textContent);
         seco = Number(seco) + Number(fila.cells[3].textContent);
         dulce = Number(dulce) + Number(fila.cells[4].textContent);
         amargo = Number(amargo) + Number(fila.cells[5].textContent);
         ácido = Number(ácido) + Number(fila.cells[6].textContent);
-        console.log(picante)
 
         let aux = seco;
         seco = Number(seco) - Number(dulce);
@@ -159,7 +158,7 @@ function calcularCubo() {
         table = "<tr><th>Color</th><th>Masa</th><th>Picante</th><th>Seco</th><th>Dulce</th><th>Amargo</th><th>Ácido</th></tr>" + "<tr><td>" + color + "</td><td>" + masa + "</td><td>" + picante + "</td><td>" + seco + "</td><td>" + dulce + "</td><td>" + amargo + "</td><td>" + ácido + "</td></tr>";
 
     }
-    document.getElementById("pokecuboSalida").innerHTML = table;
+    salida.innerHTML = table;
     picante = 0;
     seco = 0;
     dulce = 0;
